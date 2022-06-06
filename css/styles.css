@@ -289,12 +289,12 @@ address {
 .style-margin {
   margin-bottom: 94px;
 }
-.icon-header{
+.icon-header {
   fill: #757575;
   margin-right: 10px;
   margin-left: 30px;
 }
-.icon-header:hover{
+.icon-header:hover {
   stroke: #2196f3;
   fill: #2196f3;
 }
@@ -307,11 +307,9 @@ address {
 .icon {
   fill: #757575;
   margin-right: 10px;
-  
 }
 .icon-castomers {
   display: flex;
-  
 }
 .icons-backgraund {
   background: #f5f4fa;
@@ -346,23 +344,20 @@ address {
   cursor: pointer;
   border: 1px solid #2196f3;
   border-radius: 4px;
-  fill: #2196F3;
+  fill: #2196f3;
 }
-.icon-castomers :hover{
-stroke: #2196f3;
+.icon-castomers :hover {
+  stroke: #2196f3;
   fill: #2196f3;
 }
 
-.icon-footer{
-
+.icon-footer {
 }
-.icon-footer:hover{
+.icon-footer:hover {
   stroke: #2196f3;
   fill: #2196f3;
   cursor: pointer;
-  
 }
-.flex-footer{
+.flex-footer {
   display: flex;
-
 }
