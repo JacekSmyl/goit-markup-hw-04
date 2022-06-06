@@ -307,7 +307,6 @@ address {
   fill: #2196f3;
   cursor: pointer;
 }
-
 .icon {
   fill: #757575;
   margin-right: 10px;
@@ -315,7 +314,6 @@ address {
 .icon-castomers {
   display: flex;
   fill: #AFB1B8;
-  
 }
 
 .icons-ubackground {
