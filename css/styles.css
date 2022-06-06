@@ -52,7 +52,7 @@ body {
   background: #2f303a;
 }
 .background-image {
-  background-image: url("/images/overlay.png");
+  background-image: url("images/overlay.png");
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
