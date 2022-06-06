@@ -14,7 +14,7 @@ body {
   line-height: 1.14;
   width: 254px;
   justify-content: space-between;
-   padding:0px;
+  padding: 0px;
   margin-left: 93px;
 }
 .header-style {
@@ -30,13 +30,13 @@ body {
 .link-item {
   text-decoration: none;
   color: #757575;
-   margin: 25px;
   margin-right: 0px;
 }
 .link-item:focus,
 .link-item:hover {
   color: rgba(33, 150, 243, 1);
 }
+
 .link:focus,
 .link:hover {
   color: rgba(33, 150, 243, 1);
@@ -129,7 +129,6 @@ body {
   font-size: 16px;
   line-height: 1.187;
   margin-top: 10px;
- 
 }
 
 .footer-style {
@@ -141,6 +140,7 @@ body {
 }
 .footer-color {
   background: #2f303a;
+  display: flex;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -266,7 +266,7 @@ address {
   list-style: none;
   justify-content: center;
   align-content: flex-start;
-   margin-top: 94px;
+  margin-top: 94px;
   margin-bottom: 50px;
 }
 .flex-wrap {
@@ -289,16 +289,29 @@ address {
 .style-margin {
   margin-bottom: 94px;
 }
+.icon-header{
+  fill: #757575;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+.icon-header:hover{
+  stroke: #2196f3;
+  fill: #2196f3;
+}
 .icon :hover {
   stroke: #2196f3;
   fill: #2196f3;
   cursor: pointer;
-  
 }
 
 .icon {
   fill: #757575;
-
+  margin-right: 10px;
+  
+}
+.icon-castomers {
+  display: flex;
+  
 }
 .icons-backgraund {
   background: #f5f4fa;
@@ -310,6 +323,46 @@ address {
   align-items: center;
 }
 
-.customers{
-list-style: none;
+.customers {
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.customers-box {
+  box-sizing: border-box;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+}
+.container-item {
+  padding-bottom: 94px;
+}
+
+.customers-box:hover {
+  cursor: pointer;
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+  fill: #2196F3;
+}
+.icon-castomers :hover{
+stroke: #2196f3;
+  fill: #2196f3;
+}
+
+.icon-footer{
+
+}
+.icon-footer:hover{
+  stroke: #2196f3;
+  fill: #2196f3;
+  cursor: pointer;
+  
+}
+.flex-footer{
+  display: flex;
+
 }
