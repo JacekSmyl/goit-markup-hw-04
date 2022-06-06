@@ -18,7 +18,7 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <header class=" flex header-style ">
+   <header class=" flex header-style ">
       <div class=" container flex ">
           <div class="flex">
             <a class="link" href="https://jaceksmyl.github.io/goit-markup-hw-01/"
@@ -35,11 +35,18 @@
             </nav>    
           </div>
            <div class="flex">
+              <svg class="icon-header flex" width="16" height="12">
+                 <use href="images/sprite/icomoon(1)/symbol-defs.svg#icon-envelope"></use> 
+           </svg>
               <a class="link-item" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
+               <svg class="icon-header flex" width="10" height="16">
+                 <use href="images/sprite/icomoon(1)/symbol-defs.svg#icon-smartphone"></use> 
+           </svg>
               <a class="link-item" href="tel:+48111111111">+48 111 111 111</a>
         </div>
+      </div>
     </header>
     <main>
       <section>
@@ -163,18 +170,35 @@
         </div>
       </section>
     </main>
-    <footer class="footer-color
-    ">
-      <div class="footer-style container">
-        <a
-          class="footer-style-item"
-          href="https://jaceksmyl.github.io/goit-markup-hw-01/"
-          ><span class="logo">Web</span><span class="logo-item">Studio</span></a
-        >
-        <address>m. Warszawa, Aleje Jerozolimskie 21</address>
-        <a class="contacts" href="mailto:info@example.com">info@example.com</a
-        ><br />
-        <a class="contacts" href="tel:+48111111111">+48 111 111 111</a>
+    <footer class="footer-color" >
+      <div class="container flex-footer">
+          <div class="footer-position">
+            <a
+              class="footer-style-item"
+              href="https://jaceksmyl.github.io/goit-markup-hw-01/"
+              ><span class="logo">Web</span><span class="logo-item">Studio</span></a
+            >
+            <address>m. Warszawa, Aleje Jerozolimskie 21</address>
+            <a class="contacts" href="mailto:info@example.com">info@example.com</a
+            ><br />
+            <a class="contacts" href="tel:+48111111111">+48 111 111 111</a>
+          </div>
+          <div class="footer-position footer-position-item">
+            <p class="style">Dołącz do nas </p>
+            <svg class="icon-footer" width="44" height="44">
+                <use href="/images/sprite/icomoon(1)/symbol-defs.svg#icon-Ellipse-3"></use>
+            </svg>
+            <svg class="icon-footer" width="44" height="44">
+                <use href="/images/sprite/icomoon(1)/symbol-defs.svg#icon-Ellipse-2"></use>
+            </svg>
+            <svg class="icon-footer" width="44" height="44">
+                <use href="/images/sprite/icomoon(1)/symbol-defs.svg#icon-Ellipse-1"></use>
+            </svg>
+            <svg class="icon-footer" width="44" height="44">
+                <use href="/images/sprite/icomoon(1)/symbol-defs.svg#icon-Ellipse"></use>
+            </svg>
+          </div>
+
       </div>
     </footer>
   </body>

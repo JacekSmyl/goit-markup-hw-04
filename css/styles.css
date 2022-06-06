@@ -51,8 +51,10 @@ body {
 .section-background {
   background: #2f303a;
 }
+
 .background-image {
-  background-image: url(/images/overlay.jpg);
+  background-image: url("/images/overlay.jpg");
+
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
@@ -141,6 +143,7 @@ body {
 .footer-color {
   background: #2f303a;
   display: flex;
+  
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -277,6 +280,7 @@ address {
   padding-bottom: 94px;
   padding-top: 94px;
   padding-left: 0px;
+  background: #F5F4FA;
 }
 .style-padding {
   padding-bottom: 94px;
@@ -310,8 +314,11 @@ address {
 }
 .icon-castomers {
   display: flex;
+  fill: #AFB1B8;
+  
 }
-.icons-backgraund {
+
+.icons-ubackground {
   background: #f5f4fa;
   border-radius: 4px;
   width: 270px;
@@ -336,8 +343,11 @@ address {
   width: 170px;
   height: 92px;
 }
+
+
 .container-item {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .customers-box:hover {
@@ -352,6 +362,8 @@ address {
 }
 
 .icon-footer {
+  fill: red;
+ stroke: #ffffff
 }
 .icon-footer:hover {
   stroke: #2196f3;
@@ -360,4 +372,17 @@ address {
 }
 .flex-footer {
   display: flex;
+
+}
+.style {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+}
+.footer-position{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-position-item {
+  margin-left: 70px;
 }
