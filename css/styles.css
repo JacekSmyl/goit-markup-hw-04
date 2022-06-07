@@ -55,7 +55,8 @@ body {
 .background-image {
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)),
+      rgba(47, 48, 58, 0.4)
+    ),
     url("../images/overlay.jpg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -302,12 +303,10 @@ address {
   margin-left: 30px;
 }
 .icon-header:hover {
-  stroke: #2196f3;
   fill: #2196f3;
 }
 .icon:hover,
 .icon:focus {
-  stroke: #2196f3;
   fill: #2196f3;
   cursor: pointer;
 }
@@ -320,7 +319,7 @@ address {
   fill: #afb1b8;
 }
 
-.icons-ubackground {
+.icons-background {
   background: #f5f4fa;
   border-radius: 4px;
   width: 270px;
@@ -358,7 +357,6 @@ address {
   fill: #2196f3;
 }
 .icon-castomers :hover {
-  stroke: #2196f3;
   fill: #2196f3;
 }
 
@@ -366,10 +364,8 @@ address {
   fill: rgba(255, 255, 255, 0.1);
 }
 .icon-footer:hover {
-  stroke: #2196f3;
   fill: #2196f3;
   cursor: pointer;
- 
 }
 .flex-footer {
   display: flex;
