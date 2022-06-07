@@ -304,9 +304,9 @@ address {
 }
 .icon-header:hover {
   fill: #2196f3;
+  cursor: pointer;
 }
-.icon:hover,
-.icon:focus {
+.icon:hover {
   fill: #2196f3;
   cursor: pointer;
 }
@@ -314,6 +314,24 @@ address {
   fill: #757575;
   margin-right: 10px;
 }
+.icon-team {
+  width: 20px;
+  height: 20px;
+}
+.icons-box {
+  display: inline-flex;
+  fill: #afb1b8;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+}
+.icons-box:hover {
+  background: #2196f3;
+  border-radius: 50%;
+  fill: white;
+}
+
 .icon-castomers {
   display: flex;
   fill: #afb1b8;
@@ -361,19 +379,34 @@ address {
 }
 
 .icon-footer {
-  fill: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
+  width: 20px;
+  height: 20px;
 }
-.icon-footer:hover {
-  fill: #2196f3;
+.icon-footer-item {
+  display: inline-flex;
+  fill: white;
   cursor: pointer;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
+.icon-footer-item:hover {
+  background: #2196f3;
+}
+
 .flex-footer {
   display: flex;
 }
 .style {
   color: #ffffff;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 16px;
+  line-height: 16px;
 }
 .footer-position {
   padding-top: 60px;
