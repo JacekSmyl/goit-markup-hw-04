@@ -363,11 +363,13 @@ address {
 }
 
 .icon-footer {
+  fill: rgba(255, 255, 255, 0.1);
 }
 .icon-footer:hover {
   stroke: #2196f3;
   fill: #2196f3;
   cursor: pointer;
+ 
 }
 .flex-footer {
   display: flex;
