@@ -31,10 +31,21 @@ body {
   text-decoration: none;
   color: #757575;
   margin-right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.link-item:focus,
-.link-item:hover {
-  color: rgba(33, 150, 243, 1);
+.link-item:hover,
+.link-item:hover svg {
+  fill: #2196f3;
+  color: #2196f3;
+  cursor: pointer;
+}
+
+.icon-header {
+  fill: #757575;
+  margin-right: 10px;
+  margin-left: 30px;
 }
 
 .link:focus,
@@ -239,13 +250,20 @@ address {
   width: 270px;
   text-align: center;
 }
-
+.box-shadow {
+  margin-bottom: 30px;
+}
+.box-shadow:hover {
+  cursor: pointer;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .boxes {
   border-left: 1px solid rgba(238, 238, 238, 1);
   border-bottom: 1px solid rgba(238, 238, 238, 1);
   border-right: 1px solid rgba(238, 238, 238, 1);
-  padding: 20px 24px;
-  margin-bottom: 30px;
+  padding: 20px 22px;
+  margin-top: -4px;
 }
 .boxes-team {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -296,15 +314,7 @@ address {
 .style-margin {
   margin-bottom: 94px;
 }
-.icon-header {
-  fill: #757575;
-  margin-right: 10px;
-  margin-left: 30px;
-}
-.icon-header:hover {
-  fill: #2196f3;
-  cursor: pointer;
-}
+
 .icon:hover {
   fill: #2196f3;
   cursor: pointer;
@@ -367,14 +377,13 @@ address {
   padding-top: 94px;
 }
 
-.customers-box:hover {
+.customers-box:hover svg {
   cursor: pointer;
-  border: 1px solid #2196f3;
-  border-radius: 4px;
   fill: #2196f3;
 }
-.icon-castomers :hover {
-  fill: #2196f3;
+.customers-box:hover {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
 }
 
 .icon-footer {
@@ -406,6 +415,9 @@ address {
   font-weight: 700;
   font-size: 16px;
   line-height: 16px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 .footer-position {
   padding-top: 60px;
