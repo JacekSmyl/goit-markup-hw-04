@@ -19,6 +19,7 @@ body {
 }
 .header-style {
   border-bottom: 1px solid #ececec;
+  height: 80px;
 }
 
 .link {
@@ -339,6 +340,7 @@ address {
   background: #2196f3;
   border-radius: 50%;
   fill: white;
+  cursor: pointer;
 }
 
 .icon-castomers {
@@ -384,6 +386,7 @@ address {
 .customers-box:hover {
   border: 1px solid #2196f3;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .icon-footer {
@@ -405,6 +408,7 @@ address {
 }
 .icon-footer-item:hover {
   background: #2196f3;
+  
 }
 
 .flex-footer {
