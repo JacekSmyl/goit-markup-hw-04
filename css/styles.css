@@ -63,7 +63,9 @@ body {
 .section-background {
   background: #2f303a;
 }
-
+.section-backround-item{
+  background: #f5f4fa;
+}
 .background-image {
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
@@ -302,7 +304,7 @@ address {
   padding-bottom: 94px;
   padding-top: 94px;
   padding-left: 0px;
-  background: #f5f4fa;
+  
 }
 .style-padding {
   padding-bottom: 94px;
